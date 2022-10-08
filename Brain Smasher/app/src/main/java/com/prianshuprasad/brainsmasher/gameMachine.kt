@@ -50,7 +50,7 @@ class gameMachine(private var size:Int=4) {
    {
        Intiliaze()
 
-      for(i in 0..sizeD+rand(100,200))
+      for(i in 0..sizeD+rand(1000,2000))
           swap()
 
    }
